@@ -1,0 +1,146 @@
+/**
+ * @package		Reset.css
+ * @version		0.2, 2014-03-16
+ * @author		Florian Martin-Bariteau
+ * @licence		MIT
+ */
+
+/*------------------------------------------/
+	Browser
+/------------------------------------------*/
+
+html,
+body,
+div,
+dl,
+dt,
+dd,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+audio,
+canvas,
+progress,
+video,
+img {
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	color: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+}
+
+:focus {
+	outline: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+textarea {
+	overflow: auto;
+}
+
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+
+optgroup {
+	font-weight: bold;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+}
